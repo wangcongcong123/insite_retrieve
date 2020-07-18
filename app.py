@@ -58,7 +58,7 @@ if __name__ == '__main__':
         if len(corpus_examples)==0:
             st.info("No examples from the site's corpus")
         else:
-            offset = st.number_input(f"Display number of examples (offset,size={len(corpus_examples)})?", value=0, step=min(5,len(corpus_examples)-1), min_value=0,
+            offset = st.number_input(f"Display number of paragraphs (offset,total={len(corpus_examples)})?", value=0, step=min(5,len(corpus_examples)-1), min_value=0,
                                         max_value=len(corpus_examples)-1)
             for example in corpus_examples[offset:offset+min(5,len(corpus_examples)-1)]:
                 st.write(example)
