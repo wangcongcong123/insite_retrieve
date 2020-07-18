@@ -152,16 +152,14 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(description='Generate corpus for indexing.')
-    # wangcongcong123.github.io
-    parser.add_argument('--blog_site', required=False, default='https://jiazhengli.com//',
+    parser.add_argument('--blog_site', required=False, default='https://wangcongcong123.github.io//',
                         help='the root url of blog site')
 
-    parser.add_argument('--to_file', required=False, default='jiazhengli.com_2020_07_18.jsonl',
+    parser.add_argument('--to_file', required=False, default='wangcongcong123.github.io_2020_07_18.jsonl',
                         help='jsonl file to generate for anserini indexing')
 
-    parser.add_argument('--word_cloud_file', required=False, default='jiazhengli.com_2020_07_18_wc.png',
+    parser.add_argument('--word_cloud_file', required=False, default='wangcongcong123.github.io_2020_07_18_wc.png',
                         help='the world cloud file to generate based on the corpus')
-
     args = parser.parse_args()
     passages = parse_passages(args.blog_site)
     write_to_jsonl(passages, path=os.path.join("corpus",args.blog_site.split("//")[1]),filename=args.to_file)
