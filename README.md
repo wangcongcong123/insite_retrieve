@@ -1,5 +1,6 @@
 # InsiteRetriever: A web app for retrieving contents within a site. 
 
+
 ### Motivation
 
 This app is inspired by the fact that many bloggers who are skilled in one field/domain or another maintain blogging sites to share their knowledge but there are usually no searching boxes provided on their sites. However, more broadly, it is not limited in blogging sites but can be applied to any other type of sites.
