@@ -1,5 +1,4 @@
-# InsiteRetriever
-## A web app: Retrieving contents within a site. 
+# InsiteRetriever: A web app for retrieving contents within a site. 
 
 ### Motivation
 
