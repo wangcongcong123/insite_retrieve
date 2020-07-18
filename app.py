@@ -60,7 +60,7 @@ if __name__ == '__main__':
         else:
             offset = st.number_input(f"Display number of examples (offset,size={len(corpus_examples)})?", value=0, step=min(5,len(corpus_examples)-1), min_value=0,
                                         max_value=len(corpus_examples)-1)
-            for example in corpus_examples[offset:offset+min(20,len(corpus_examples)-1)]:
+            for example in corpus_examples[offset:offset+min(5,len(corpus_examples)-1)]:
                 st.write(example)
 
 
@@ -73,7 +73,7 @@ if __name__ == '__main__':
             st.info("Not found relevant results")
         else:
             offset = st.number_input(f"Display number of results (offset, total={len(hits)})?", value=0,
-                                 step=min(10, len(hits) - 1), min_value=0,
+                                 step=min(20, len(hits) - 1), min_value=0,
                                  max_value=len(hits) - 1)
 
         for idx, hit in enumerate(hits[offset:offset+min(20,len(hits)-1)]):
