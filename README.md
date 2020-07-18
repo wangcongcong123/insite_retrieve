@@ -7,7 +7,7 @@ This app is inspired by the fact that many bloggers who are skilled in one field
  
  Due to the lack of resources in comparison to big search engines like Google, this functions only for in-site searching while at paragraph level. Hopefully this helps information seekers to get domain-specific knowledge efficiently from an expert's (e.g., the bloggers) site or any other type sites.
  
-### Demo
+### Demo ([Notebook](insite_retrieve.ipynb)) 
 ![demo](demo.gif)
 
 ### Features
