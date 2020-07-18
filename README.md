@@ -31,7 +31,9 @@ pip install -r requirements.txt
 
 apt-get install maven -qq
 git clone https://github.com/castorini/anserini.git
+cd anserini
 mvn clean package appassembler:assemble -DskipTests -Dmaven.javadoc.skip=true
+cd ..
 
 streamlit run app.py
 ```
