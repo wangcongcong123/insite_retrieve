@@ -24,7 +24,7 @@ This app is inspired by the fact that many bloggers who are skilled in one field
 
 ### Quick Start
 ```
-git clone <this repository>
+git clone https://github.com/wangcongcong123/insite_retrieve.git
 pip install -r requirements.txt
 ./install_anserini.sh
 streamlit run app.py
