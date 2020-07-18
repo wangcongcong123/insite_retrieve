@@ -1,5 +1,5 @@
 # InsiteRetriever
-#### A web app: Retrieving contents within a site. 
+## A web app: Retrieving contents within a site. 
 
 ### Motivation
 
@@ -8,7 +8,7 @@ This app is inspired by the fact that many bloggers who are skilled in one field
  Due to the lack of resources in comparison to big search engines like Google, this functions only for in-site searching while at paragraph level. Hopefully this helps information seekers to get domain-specific knowledge efficiently from an expert's (e.g., the bloggers) site or any other type sites.
  
 ### Demo
-![demo](demno.gif)
+![demo](demo.gif)
 
 ### Features
 - Using [Anserini tool](https://github.com/castorini/anserini) for efficient indexing and querying.
@@ -29,9 +29,9 @@ pip install -r requirements.txt
 ./install_anserini.sh
 streamlit run app.py
 ```
-### TODO ideas
-Let me know if any questions, feedback is welcome. Contributions or pull requests are highly encouraged. Below gives some TODO ideas.
+### Todo ideas
+Let me know if any questions, feedback is welcome. Contributions or pull requests are highly encouraged. Below gives some Todo ideas.
 
 - Now the system only works using sparse retrieval-based BM25 model, so more work can go to extend the system to support dense retrieval-based techniques such as the recent advance: [RetriBERT](https://yjernite.github.io/lfqa.html).
-- Now the system only includes a word cloud image indicating what the topics of a site are generally about, so more work can go to add more features such as topic modelling the site, 
-
+- Now the system only includes a word cloud image indicating what the topics of a site are generally about, so more work can go to add more features such as topic modelling the site's contents.
+- More work can go to the presentation of retrived results, such as presenting them with more supplementary data (title, paragraph original location), highlighting exactly-matched words, better rendering etc.
