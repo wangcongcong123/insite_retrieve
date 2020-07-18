@@ -1,0 +1,6 @@
+wordcloud
+tqdm
+streamlit
+beautifulsoup4
+pysearch
+matplotlib
