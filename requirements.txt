@@ -2,5 +2,5 @@ wordcloud
 tqdm
 streamlit
 beautifulsoup4
-pyserini
+pyserini==0.9.2.0
 matplotlib
