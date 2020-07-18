@@ -43,4 +43,4 @@ Let me know if any questions, feedback is welcome. Contributions or pull request
 - Now the system only works using sparse retrieval-based BM25 model, so more work can go to extend the system to support dense retrieval-based techniques such as the recent advance: [RetriBERT](https://yjernite.github.io/lfqa.html).
 - Now the system only includes a word cloud image indicating what the topics of a site are generally about, so more work can go to add more features such as topic modelling on the site's contents.
 - More work can go to the presentation of retrived results, such as presenting them with more supplementary data (title, paragraph original location), highlighting exactly-matched words, better rendering etc.
-- Now the contents from each site are corasely extracted, more filtering strategies are expected to improve the quality of the extracted contents.
+- Now the contents from each site are coarsely extracted, more filtering strategies are expected for improving the quality of the extracted contents.
