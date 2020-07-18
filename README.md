@@ -26,7 +26,13 @@ This app is inspired by the fact that many bloggers who are skilled in one field
 ```
 git clone https://github.com/wangcongcong123/insite_retrieve.git
 pip install -r requirements.txt
-./install_anserini.sh
+cd insite_retrieve
+
+apt-get install maven -qq
+git clone https://github.com/castorini/anserini.git
+mvn clean package appassembler:assemble -DskipTests -Dmaven.javadoc.skip=true
+cd eval && tar xvfz trec_eval.9.0.4.tar.gz && cd trec_eval.9.0.4 && make
+
 streamlit run app.py
 ```
 ### Todo ideas
