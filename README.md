@@ -25,8 +25,9 @@ This app is inspired by the fact that many bloggers who are skilled in one field
 ### Quick Start
 ```
 git clone https://github.com/wangcongcong123/insite_retrieve.git
-pip install -r requirements.txt
 cd insite_retrieve
+pip install -r requirements.txt
+
 
 apt-get install maven -qq
 git clone https://github.com/castorini/anserini.git
